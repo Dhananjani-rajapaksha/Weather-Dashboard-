@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
+const apiKey = "YOUR_API_KEY"; 
 
 function getWeather() {
     const city = document.getElementById("city").value;
@@ -22,3 +22,4 @@ function getWeather() {
         alert("City not found!");
     });
 }
+
