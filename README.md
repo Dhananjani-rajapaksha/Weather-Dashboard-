@@ -1,5 +1,5 @@
  Live URL
- https://weatherdashboar.vercel.app
+ https://srilankaweather.vercel.app/
 
 
 Technologies Used
