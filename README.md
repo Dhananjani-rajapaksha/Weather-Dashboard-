@@ -1,5 +1,5 @@
  Live URL
- https://weatherdashboard-kappa.vercel.app/
+ https://weatherdashboar.vercel.app
 
 
 Technologies Used
