@@ -8,18 +8,32 @@
 <body>
 
   <div class="container">
-    <h1>🌦️ Weather Dashboard</h1>
+    <h1>🌦️ Sri Lanka Weather Dashboard</h1>
 
     <div class="search">
-      <input type="text" id="city" placeholder="Enter city name">
+      <select id="city">
+        <option value="">-- Select a City --</option>
+        <option value="Colombo">Colombo</option>
+        <option value="Kandy">Kandy</option>
+        <option value="Galle">Galle</option>
+        <option value="Jaffna">Jaffna</option>
+        <option value="Kurunegala">Kurunegala</option>
+        <option value="Anuradhapura">Anuradhapura</option>
+        <option value="Matara">Matara</option>
+        <option value="Negombo">Negombo</option>
+        <option value="Batticaloa">Batticaloa</option>
+        <option value="Trincomalee">Trincomalee</option>
+      </select>
+
       <button onclick="getWeather()">Search</button>
     </div>
 
-    <div id="weather" class="weather-box">
-    </div>
+    <div id="weather" class="weather-box"></div>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+
 
