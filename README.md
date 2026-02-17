@@ -1,3 +1,7 @@
+ Live URL
+ https://weatherdashboard-kappa.vercel.app/
+
+
 Technologies Used
 * HTML5
 * CSS3
@@ -33,7 +37,6 @@ Features
 * Feature enhancements and bug fixes
 
 
-Live App
-https://weatherdashboard-kappa.vercel.app/
+ 
 
   
