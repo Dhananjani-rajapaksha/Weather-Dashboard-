@@ -1,0 +1,27 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main   # deploy on main branch pushes
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Deploy to Vercel (static site)
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}  # set in GitHub repo secrets
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # set in GitHub repo secrets
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # set in GitHub repo secrets
+          vercel-args: "--prod"
