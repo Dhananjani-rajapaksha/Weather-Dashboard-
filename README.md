@@ -1,6 +1,3 @@
- Live URL
- https://srilankaweather.vercel.app/
-
 
 Technologies Used
 * HTML5
