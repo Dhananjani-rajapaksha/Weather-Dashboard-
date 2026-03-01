@@ -1,11 +1,17 @@
+version: '3.8'
+
 services:
-  weather-app:
+  web:
     build: .
     ports:
       - "3000:3000"
+    environment:
+      - NODE_ENV=production
     volumes:
       - .:/app
-    command: npm start
+    depends_on:
+      - db
+
   db:
     image: postgres:15
     environment:
