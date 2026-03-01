@@ -1,11 +1,19 @@
-version: "3.8"
-
 services:
   weather-app:
     build: .
-    container_name: weather-dashboard
     ports:
       - "3000:3000"
+    volumes:
+      - .:/app
+    command: npm start
+  db:
+    image: postgres:15
     environment:
-      - NODE_ENV=production
-    restart: always
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: weatherdb
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
