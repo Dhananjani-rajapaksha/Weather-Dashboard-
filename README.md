@@ -12,6 +12,17 @@ Features
 * Real-time conversion without page reload
 * Cross-browser compatibility
 
+## Docker Setup Instructions
+
+### Build Image
+docker build -t weather-app .
+
+### Run Container
+docker run -p 3000:3000 weather-app
+
+### Using Docker Compose
+docker-compose up --build
+
 * Individual Contributions
   
   H.M.Anuradha Arundathi - ITBNM-2313-0005
