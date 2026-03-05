@@ -1,3 +1,7 @@
+### Weather Dashboard
+
+## Description
+The Weather Dashboard is a web application that allows users to view real-time weather information for different cities. By entering a city name, users can see details such as temperature, humidity, wind speed, and weather conditions. The application uses a weather API to fetch live data and display it in a simple and easy-to-use interface. It helps users quickly check the weather of any location.
 
 Technologies Used
 * HTML5
