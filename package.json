@@ -4,8 +4,10 @@
   "description": "Live URL\r  https://srilankaweather.vercel.app/",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node script.js",
+  "build": "echo build complete",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dhananjani-rajapaksha/Weather-Dashboard-.git"
