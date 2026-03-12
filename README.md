@@ -16,7 +16,7 @@ Features
 * Real-time conversion without page reload
 * Cross-browser compatibility
 
-  ## Live URL-https://weather-dashboard-rho-six.vercel.app/
+  ## [Live URL-https://weather-dashboard-rho-six.vercel.app/](https://weather-dashboard-jhryyiff3-dhananjani-rajapakshas-projects.vercel.app/)
 
 ## Docker Setup Instructions
 
